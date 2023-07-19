@@ -6,15 +6,15 @@
  * Return: Absolute value of number or zero
  */
 
-int _ab$(int c)
+int _abs(int c)
 
 {
 	if (c < 0)
 	{
-	int ab$_val;
+	int abs_val;
 
-	ab$_val = c * -1;
-	return (ab$_val);
+	abs_val = c * -1;
+	return (abs_val);
 	}
 	return (c);
 
