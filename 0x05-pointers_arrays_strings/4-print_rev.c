@@ -6,8 +6,7 @@
  * @s: The string is to print
  * Return: void
  */
-
- void print_rev(char *s)
+void print_rev(char *s)
 {
         int longi = 0;
 	int o;
@@ -18,12 +17,12 @@
 		 s++;
 	}
 	s--;
-	for  (o = longi; o > 0; o--)
+	for(o = longi; o > 0; o--)
 	{
-	_putchar(*s);
-	s--;
+		 _putchar(*s);
+		 s--;
 	}
-	_putchar('\n');
+	_putchar( '\n');
 }
 
   
